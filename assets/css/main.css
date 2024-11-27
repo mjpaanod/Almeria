@@ -1389,4 +1389,39 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+  /* Basic Reset */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center; /* Centers the nav content horizontally */
+}
+
+.nav-list {
+    display: flex;
+    gap: 2rem; /* Space between the links */
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.nav-list li a:hover {
+    color: #ff6600; /* Add hover effect */
+}
+
 }
